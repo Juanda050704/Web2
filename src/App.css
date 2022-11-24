@@ -1,4 +1,88 @@
-.App {
+.main{
+display: flex;
+}
+
+.header{
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+}
+
+.section{
+background-color: blue;
+height: 80vh;
+width: 50vw;
+
+}
+
+.footer{
+  background-color: blue;
+  height: 5vh;
+  width: 100vw;
+}
+
+.article{
+  background-color: blue;
+  width: 50vw;
+  height: 80vh;
+}
+
+.logo{
+width: 20vw;
+height: 18vh;
+}
+
+.input_header{
+border: solid 1px blue;
+margin: 10px;
+}
+
+.form input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "lato", sans-serif;
+  
+}
+
+.form{
+  width: 100%;
+max-width: 600px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
+
+button{
+color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +119,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
+

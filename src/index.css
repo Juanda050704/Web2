@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.botones {
+  float: right;
+}
+
+.botones button {
+  background-color: white;
+  color: black;
+}
